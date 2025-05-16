@@ -1,8 +1,6 @@
-//Name: Prathmesh Navale
+ 
 //Experiment name:- Interfacing of 16x2 LCD in 8 bit mode with 8051 Microcontroller. 
-//Prn No:- 22420235 Roll No:212075
-//Batch :- B3
-
+ 
 ORG 0000h
 MOV A, #38h ; Initialize LCD in 8-bit mode, 2 lines, 5x7 matrix
 ACALL CMND_WRT ; 
@@ -51,22 +49,22 @@ ACALL DELAY ; delay
 MOV A, #' ' ; Display Character ' '
 ACALL DATA_WRT
 ACALL DELAY ; delay
-MOV A, #'N' ; Display Character 'N'
+MOV A, #'N' ; Display Character 'k'
 ACALL DATA_WRT
 ACALL DELAY ; delay
-MOV A, #'A' ; Display Character 'A'
+MOV A, #'A' ; Display Character 'h'
 ACALL DATA_WRT
 ACALL DELAY ; delay
-MOV A, #'V' ; Display Character 'V'
+MOV A, #'V' ; Display Character 't'
 ACALL DATA_WRT
 ACALL DELAY ; delay
-MOV A, #'A' ; Display Character 'A'
+MOV A, #'A' ; Display Character 'e'
 ACALL DATA_WRT
 ACALL DELAY ; delay
-MOV A, #'L' ; Display Character 'L'
+MOV A, #'L' ; Display Character 'e'
 ACALL DATA_WRT
 ACALL DELAY ; delay
-MOV A, #'E' ; Display Character 'E'
+MOV A, #'E' ; Display Character 'd'
 ACALL DATA_WRT
 ACALL DELAY ; delay
 
@@ -98,22 +96,22 @@ ACALL DELAY ; delay
 MOV A, #':' ; Display Character ':'
 ACALL DATA_WRT
 ACALL DELAY ; delay
-MOV A, #'2' ; Display Character '2'
+MOV A, #'2' ; Display Character '8'
 ACALL DATA_WRT
 ACALL DELAY ; delay
-MOV A, #'1' ; Display Character '1'
+MOV A, #'1' ; Display Character '6'
 ACALL DATA_WRT
 ACALL DELAY ; delay
-MOV A, #'2' ; Display Character '2'
+MOV A, #'2' ; Display Character '5'
 ACALL DATA_WRT
 ACALL DELAY ; delay
 MOV A, #'0' ; Display Character '0'
 ACALL DATA_WRT
 ACALL DELAY ; delay
-MOV A, #'7' ; Display Character '7'
+MOV A, #'7' ; Display Character '6'
 ACALL DATA_WRT
 ACALL DELAY ; delay
-MOV A, #'5' ; Display Character '5'
+MOV A, #'5' ; Display Character '0'
 ACALL DATA_WRT
 ACALL DELAY ; delay
 
